@@ -75,27 +75,52 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
 #### Themes
 
 1. You can change your site's theme by accessing **Customize** on the left bar of your WordPress Dashboard, and then clicking on **Change Themes**
+
+![wp-theme](images/wp-theme.png)
+
 2. There, you can either choose from existing installed themes, or click on **Add New** to install new themes.
+
+![theme](images/theme.png)
+
 3. Under customize is where you can also further customize how your site looks!
 
 #### Pages
 
 1. We will start by adding a new page for our site! On the WordPress Dashboard, there should be a **Pages** section on the left bar, under that there should be an **Add Blank** section, click on it.
+
+![add-page](images/add-page.png)
+
 2. The page will then show you an editor where you can customize your page however you like.
+   - The + sign on the top-left corner allows you to add more elements to the page!
+
+![demo-page](images/demo-page.png)
+
 3. After customizing your page, you can preview it by clicking on the **Preview** button at the top right corner of the page.
 4. When you're ready, just click on **Publish...** to publish your page!
 
 #### Plugins
 
 1. On your WordPress Dashboard, go to the **Plugins** section, then click on **Add New**.
+
+![new-plugin](images/new-plugin.png)
+
 2. Install **WooCommerce** and **WooCommerce Services**
+
+![install](images/install.png)
+
 3. Activate **Jetpack**, **WooCommerce** and **WooCommerce Services** from **Plugins** page.
+
+![activate](images/activate.png)
+
 4. Clicking on **Pages** section will reveal that **WooCommerce** has added a few more pages on your WordPress site!
 5. Whenever you need to add any functionality to your WordPress site, just go to **Add New** section and search for it.
 
 #### WooCommerce
 
 1. We will first start by creating our first product for our store! There should be a **Products** section at the sidebar, there should be an **Add New** section under it, click on it.
+
+![new-product](images/new-product.png)
+
 2. The important options on this page are:
    - Product name
    - Product categories
@@ -106,12 +131,22 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
    - Product short description
 3. Fill the informations in, once you're done, click on the **Publish** button!
 4. Remember that **WooCommerce** actually added a few extra pages for us? Visit the **Shop** page that is added. If you don't know where to access the page, just click on the **Pages** section on the left bar, and click **View** on the **Shop** page!
+
+![view-shop](images/view-shop.png)
+
 5. You should now be able to see the product that you just posted!
 
 #### WooCommerce Extra
 
 1. There are a few options that you can enable/disable for **WooCommerce**, under **WooCommerce**, there should be a **Settings** section, click on it.
+
+![shop-settings](images/shop-settings.png)
+
 2. The options that you're most likely interested are:
+
    - Under **Shipping** tab, there should be an option named **WooCommerce Services**. There you can add shipping labels and packaging.
+
+   ![label](images/label.png)
+
    - There is also the **Payments** tab where you can add more payment methods into your e-commerce site. Remember if its not listed here, you can still add more payment methods through **Plugins**
    - Under **Accounts & Privacy**, you can configure how your customer can create their account for your site.
