@@ -7,6 +7,9 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
 1. Visit https://www.dreamhost.com/wordpress/shared-wp-hosting/
 2. Select a plan
    - We recommend selecting the one month plan for now from **Shared Hosting**
+
+![hosting](images/hosting.png)
+
 3. You will then be asked to choose a domain. You can choose to "link" an existing domain that you have or register one with them.
    - You can also register a domain on sites like **GoDaddy** or **Namecheap**.
    - Once you've registered a domain with one of the registrar, configure your **Nameservers** to point to
@@ -15,6 +18,9 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
      ns2.dreamhost.com
      ns3.dreamhost.com
      ```
+
+![domain-plan](images/domain-plan.png)
+
 4. You will then be asked to pay for the hosting plan and other things.
    - If you scroll down to the **Additional Options** section, you can further customize what you're paying for.
      - DreamShield
@@ -22,14 +28,29 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
      - Professional Email
        - This is to give you another mailbox under your domain. e.g. no-reply@mydomain.com
        - Like DreamShield, I would'nt recommend this unless you're deploying an actual website.
+
+![payment](images/payment.png)
+
 5. After paying for the service, you should have access to DreamHost's dashboard. From there, you should be able to access your WordPress Dashboard
    - If you visit the domain name that you've keyed in during step **3**, then you should see a dummy site that you can build on top! Congratulations on getting your first WordPress site!
+
+![dh-dashboard](images/dh-dashboard.png)
+
 6. Next is to setup SSL for your WordPress site. SSL is used to protect users that are browsing your site. On DreamHost's Dashboard, on the sidebar, under **Domains**, there should be a **SSL/TLS Certificates** section, click on it.
+
+![ssl](images/ssl.png)
+
 7. Your domain should be listed, make sure that there is a certificate associated to it.
    - If there is no certificate, click on **Settings** that is beside your domain.
    - Click on **Add New Certificate**.
    - Choose which certificate to use. Either is fine.
+
+![ssl-set](images/ssl-set.png)
+
 8. After setting up the certificate, you should enforce it by forcing all users to visit your HTTPS site instead of HTTP. Do this by going to your DreamHost Dashboard, at the FileManager section, click on **Manage Files**, this will open up a file browser on another tab.
+
+![file-manager](images/file-manager.png)
+
 9. You should see your domain name as a folder, that folder contains all the files for your WordPress site, inside the folder, there should be two files named **.htaccess** and **wp-config.php** respectively.
 10. Open **wp-config.php** and add these at the end of the file.
     ```
@@ -44,7 +65,12 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
     ```
     - After both step **10** and **11**, you should be redirected back to HTTPS whenever you try to visit the site in HTTP.
 12. Access your WordPress Dashboard through DreamHost Dashboard.
+
+![wp-dashboard](images/wp-dashboard.png)
+
 13. Once you've access your WordPress Dashboard, click on **Users** at the sidebar, it should show you a pre-generated user. Click on the user and scroll to the **Account Management** section. From there, click on **Generate Password**, you can use the random password that is generated, or you can change it to another password, once you're done, scroll down and click on **Update Profile**.
+
+![wp-user](images/wp-user.png)
 
 #### Themes
 
