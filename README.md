@@ -12,12 +12,19 @@ Sample site https://www.iwantaverycheapdomainname.xyz/
 
 3. You will then be asked to choose a domain. You can choose to "link" an existing domain that you have or register one with them.
    - You can also register a domain on sites like **GoDaddy** or **Namecheap**.
+     - For example, on [GoDaddy](https://my.godaddy.com/domains/domain-name-search). You just have to type in the domain name that you're looking for in the search bar provided, then it will show a list of domains that you might be interested in.
+       ![domain-purchase](images/domain-purchase.png)
+       ![domain-result](images/domain-result.png)
+     - After adding a domain into your cart, it will bring you to a page where it asks you if you want to include some other features, all of these options are optional. Becareful of what you've sign up for!
    - Once you've registered a domain with one of the registrar, configure your **Nameservers** to point to
      ```
      ns1.dreamhost.com
      ns2.dreamhost.com
      ns3.dreamhost.com
      ```
+   - In the case of **GoDaddy**, it will be under your **GoDaddy** dashboard
+     ![dns-config](images/dns-config.png)
+     ![nameservers](images/nameservers.png)
 
 ![domain-plan](images/domain-plan.png)
 
